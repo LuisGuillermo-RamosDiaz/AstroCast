@@ -19,6 +19,7 @@ const corsOptions = {
     'http://localhost:5173',
     'http://localhost:5174',
     'https://astro-cast.vercel.app',
+    'https://astrocast.onrender.com',
         process.env.FRONTEND_URL, // Agrega esto para permitir tu frontend de Render dinámicamente
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
